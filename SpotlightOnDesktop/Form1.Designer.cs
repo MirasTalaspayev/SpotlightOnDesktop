@@ -49,7 +49,7 @@ namespace SpotlightOnDesktop
             this.ClientSize = new System.Drawing.Size(208, 136);
             this.Controls.Add(this.NextImage);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SpotlightOnDesktop";
             this.ResumeLayout(false);
 
         }
