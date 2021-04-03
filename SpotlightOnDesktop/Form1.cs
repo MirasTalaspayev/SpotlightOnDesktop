@@ -16,13 +16,14 @@ namespace SpotlightOnDesktop
         {
             InitializeComponent();
         }
-
         private void NextImage_Click(object sender, EventArgs e)
         {
+            
             while (!SpotlightOnDesktop.ChangeDesktopImage())
             {
                 SpotlightOnDesktop.NextImage();
             }
+            btn_ImageSetter.Text = "Next Image";
             SpotlightOnDesktop.NextImage();
         }
     }

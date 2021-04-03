@@ -29,25 +29,25 @@ namespace SpotlightOnDesktop
         /// </summary>
         private void InitializeComponent()
         {
-            this.NextImage = new System.Windows.Forms.Button();
+            this.btn_ImageSetter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // NextImage
+            // btn_ImageSetter
             // 
-            this.NextImage.Location = new System.Drawing.Point(65, 48);
-            this.NextImage.Name = "NextImage";
-            this.NextImage.Size = new System.Drawing.Size(75, 27);
-            this.NextImage.TabIndex = 0;
-            this.NextImage.Text = "Next Image";
-            this.NextImage.UseVisualStyleBackColor = true;
-            this.NextImage.Click += new System.EventHandler(this.NextImage_Click);
+            this.btn_ImageSetter.Location = new System.Drawing.Point(65, 48);
+            this.btn_ImageSetter.Name = "btn_ImageSetter";
+            this.btn_ImageSetter.Size = new System.Drawing.Size(75, 27);
+            this.btn_ImageSetter.TabIndex = 0;
+            this.btn_ImageSetter.Text = "Set Image";
+            this.btn_ImageSetter.UseVisualStyleBackColor = true;
+            this.btn_ImageSetter.Click += new System.EventHandler(this.NextImage_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(208, 136);
-            this.Controls.Add(this.NextImage);
+            this.Controls.Add(this.btn_ImageSetter);
             this.Name = "Form1";
             this.Text = "SpotlightOnDesktop";
             this.ResumeLayout(false);
@@ -56,7 +56,7 @@ namespace SpotlightOnDesktop
 
         #endregion
 
-        private System.Windows.Forms.Button NextImage;
+        private System.Windows.Forms.Button btn_ImageSetter;
     }
 }
 
